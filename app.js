@@ -25,7 +25,7 @@ const articleSchema = {
 const Article = mongoose.model("Article", articleSchema);
 
 app.get("/", function(req, res) {
-  res.send("Hello mom c:");
+  res.render("home");
 });
 
 ////////Requests Targeting a All Article//////////////////

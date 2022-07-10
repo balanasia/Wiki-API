@@ -1,0 +1,38 @@
+<%- include("partials/header"); -%>
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"> <img src="/images/book-white.png" width="10%" alt="Book with brain icom white outline"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/articles">ARTICLES</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+
+  <div class="p-5 mb-4 bg-light rounded-3 jumbotron">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">Wiki API</h1>
+      <img class="top-image img-fluid" src="/images/book.png" alt="Book with brain icon in black outline">
+      <p class="col-md-8 fs-4">Allows you to add articles into the database and access them later.</p>
+    </div>
+  </div>
+</div>
+
+<%- include("partials/footer"); -%>
